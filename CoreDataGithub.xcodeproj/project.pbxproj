@@ -13,6 +13,8 @@
 		A4B59B39227DFB4D0085E77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B59B38227DFB4D0085E77A /* Assets.xcassets */; };
 		A4B59B3C227DFB4D0085E77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B59B3A227DFB4D0085E77A /* LaunchScreen.storyboard */; };
 		A4B59B44227DFB760085E77A /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B59B43227DFB760085E77A /* SwiftyJSON.swift */; };
+		A4B59B46227DFCBD0085E77A /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B59B45227DFCBD0085E77A /* DetailController.swift */; };
+		A4B59B48227DFDB60085E77A /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B59B47227DFDB60085E77A /* UIView+Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A4B59B3B227DFB4D0085E77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4B59B3D227DFB4D0085E77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B59B43227DFB760085E77A /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		A4B59B45227DFCBD0085E77A /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		A4B59B47227DFDB60085E77A /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,12 @@
 			children = (
 				A4B59B31227DFB4C0085E77A /* AppDelegate.swift */,
 				A4B59B33227DFB4C0085E77A /* ViewController.swift */,
+				A4B59B45227DFCBD0085E77A /* DetailController.swift */,
 				A4B59B35227DFB4C0085E77A /* Main.storyboard */,
 				A4B59B38227DFB4D0085E77A /* Assets.xcassets */,
 				A4B59B3A227DFB4D0085E77A /* LaunchScreen.storyboard */,
 				A4B59B3D227DFB4D0085E77A /* Info.plist */,
+				A4B59B47227DFDB60085E77A /* UIView+Layout.swift */,
 				A4B59B43227DFB760085E77A /* SwiftyJSON.swift */,
 			);
 			path = CoreDataGithub;
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B59B46227DFCBD0085E77A /* DetailController.swift in Sources */,
 				A4B59B44227DFB760085E77A /* SwiftyJSON.swift in Sources */,
 				A4B59B34227DFB4C0085E77A /* ViewController.swift in Sources */,
 				A4B59B32227DFB4C0085E77A /* AppDelegate.swift in Sources */,
+				A4B59B48227DFDB60085E77A /* UIView+Layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
